@@ -11,5 +11,5 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-  title: 'Selector - Coming Soon',
+  title: 'Selector - Bientôt disponible !',
 }

@@ -1,52 +1,59 @@
 import { component$ } from '@builder.io/qwik'
+import { DocumentHead } from '@builder.io/qwik-city'
 
 export default component$(() => {
   return (
     <div class="py-4 px-6 flex flex-col space-y-3 text-white">
       <div>
-        <div class="text-lg font-bold leading-8">Privacy Policy</div>
+        <div class="text-lg font-bold leading-8">
+          Politique de confidentialité
+        </div>
         <p>
-          Bruno Pommier built the Selector app as a Commercial app. This SERVICE
-          is provided by Bruno Pommier and is intended for use as is.
+          Bruno Pommier a construit l'application Selector comme une application
+          commerciale. Ce SERVICE est fourni par Bruno Pommier et est destiné à
+          être utilisé tel quel.
         </p>
         <p>
-          This page is used to inform visitors regarding my policies with the
-          collection, use, and disclosure of Personal Information if anyone
-          decided to use my Service.
+          Cette page est utilisée pour informer les visiteurs de ma politique en
+          matière de collecte, d'utilisation et de divulgation des informations
+          personnelles si quelqu'un décide d'utiliser mon service.
         </p>
         <p>
-          If you choose to use my Service, then you agree to the collection and
-          use of information in relation to this policy. The Personal
-          Information that I collect is used for providing and improving the
-          Service. I will not use or share your information with anyone except
-          as described in this Privacy Policy.
+          Si vous choisissez d'utiliser mon service, vous acceptez la collecte
+          et l'utilisation d'informations en relation avec cette politique. Les
+          informations personnelles que je collecte sont utilisées pour fournir
+          et améliorer le service. Je n'utiliserai ni ne partagerai vos
+          informations avec quiconque, sauf dans les cas décrits dans la
+          présente politique de confidentialité.
         </p>
         <p>
-          The terms used in this Privacy Policy have the same meanings as in our
-          Terms and Conditions, which are accessible at Selector unless
-          otherwise defined in this Privacy Policy.
+          Les termes utilisés dans cette Politique de Confidentialité ont les
+          mêmes significations que dans nos Termes et Conditions, qui sont
+          accessibles à Selector, sauf définition contraire dans cette Politique
+          de Confidentialité.
         </p>
       </div>
       <div>
         <p>
           <div class="text-lg font-bold leading-8">
-            Information Collection and Use
+            Collecte et utilisation des informations
           </div>
         </p>
         <p>
-          For a better experience, while using our Service, I may require you to
-          provide us with certain personally identifiable information. The
-          information that I request will be retained on your device and is not
-          collected by me in any way.
+          Pour une meilleure expérience, lors de l'utilisation de notre Service,
+          je peux vous demander de nous fournir certaines informations
+          personnellement identifiables. Les informations que je demande seront
+          conservées sur votre appareil et ne sont en aucun cas collectées par
+          moi.
         </p>
         <div>
           <p>
-            The app does use third-party services that may collect information
-            used to identify you.
+            L'application utilise des services tiers qui peuvent recueillir des
+            informations permettant de vous identifier.
           </p>
           <p>
-            Link to the privacy policy of third-party service providers used by
-            the app
+            Lien vers la politique de confidentialité des fournisseurs de
+            services tiers utilisés par l'application
           </p>
           <ul>
             <li>
@@ -55,7 +62,7 @@ export default component$(() => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Google Play Services
+                Services Google Play
               </a>
             </li>
           </ul>
@@ -63,16 +70,17 @@ export default component$(() => {
       </div>
       <div>
         <p>
-          <div class="text-lg font-bold leading-8">Log Data</div>
+          <div class="text-lg font-bold leading-8">Données du journal</div>
         </p>
         <p>
-          I want to inform you that whenever you use my Service, in a case of an
-          error in the app I collect data and information (through third-party
-          products) on your phone called Log Data. This Log Data may include
-          information such as your device Internet Protocol (“IP”) address,
-          device name, operating system version, the configuration of the app
-          when utilizing my Service, the time and date of your use of the
-          Service, and other statistics.
+          Je tiens à vous informer que lorsque vous utilisez mon service, en cas
+          d'erreur dans l'application, je collecte des données et des
+          informations (par le biais de produits tiers) sur votre téléphone,
+          appelées données de connexion. Ces données peuvent inclure des
+          informations telles que l'adresse IP de votre appareil, le nom de
+          l'appareil, la version du système d'exploitation, la configuration de
+          l'application lors de l'utilisation de mon service, l'heure et la date
+          de votre utilisation du service et d'autres statistiques.
         </p>
       </div>
       <div>
@@ -80,115 +88,128 @@ export default component$(() => {
           <div class="text-lg font-bold leading-8">Cookies</div>
         </p>
         <p>
-          Cookies are files with a small amount of data that are commonly used
-          as anonymous unique identifiers. These are sent to your browser from
-          the websites that you visit and are stored on your device's internal
-          memory.
+          Les cookies sont des fichiers contenant une petite quantité de données
+          qui sont généralement utilisés comme identifiants uniques anonymes.
+          Ils sont envoyés à votre navigateur à partir des sites web que vous
+          visitez et sont stockés dans la mémoire interne de votre appareil.
         </p>
         <p>
-          This Service does not use these “cookies” explicitly. However, the app
-          may use third-party code and libraries that use “cookies” to collect
-          information and improve their services. You have the option to either
-          accept or refuse these cookies and know when a cookie is being sent to
-          your device. If you choose to refuse our cookies, you may not be able
-          to use some portions of this Service.
+          Ce service n'utilise pas explicitement ces "cookies". Cependant,
+          l'application peut utiliser du code et des bibliothèques de tiers qui
+          utilisent des "cookies" pour collecter des informations et améliorer
+          leurs services. Vous avez la possibilité d'accepter ou de refuser ces
+          cookies et de savoir quand un cookie est envoyé à votre appareil. Si
+          vous choisissez de refuser nos cookies, il se peut que vous ne
+          puissiez pas utiliser certaines parties de ce service.
         </p>
       </div>
       <div>
         <p>
-          <div class="text-lg font-bold leading-8">Service Providers</div>
+          <div class="text-lg font-bold leading-8">
+            Fournisseurs de services
+          </div>
         </p>
         <p>
-          I may employ third-party companies and individuals due to the
-          following reasons:
+          Je peux employer des sociétés et des personnes tierces pour les
+          raisons suivantes :
         </p>
         <ul>
-          <li>To facilitate our Service;</li>
-          <li>To provide the Service on our behalf;</li>
-          <li>To perform Service-related services; or</li>
-          <li>To assist us in analyzing how our Service is used.</li>
+          <li>Pour faciliter notre Service ;</li>
+          <li>Pour fournir le Service en notre nom ;</li>
+          <li>Pour effectuer des services liés au Service ; ou</li>
+          <li>
+            Pour nous aider à analyser la façon dont notre service est utilisé.
+          </li>
         </ul>
         <p>
-          I want to inform users of this Service that these third parties have
-          access to their Personal Information. The reason is to perform the
-          tasks assigned to them on our behalf. However, they are obligated not
-          to disclose or use the information for any other purpose.
+          Je tiens à informer les utilisateurs de ce service que ces tiers ont
+          accès à leurs informations personnelles. La raison en est l'exécution
+          des tâches qui leur sont confiées en notre nom. Toutefois, ils sont
+          tenus de ne pas divulguer ou utiliser ces informations à d'autres
+          fins.
         </p>
       </div>
       <div>
         <p>
-          <div class="text-lg font-bold leading-8">Security</div>
+          <div class="text-lg font-bold leading-8">Sécurité</div>
         </p>
         <p>
-          I value your trust in providing us your Personal Information, thus we
-          are striving to use commercially acceptable means of protecting it.
-          But remember that no method of transmission over the internet, or
-          method of electronic storage is 100% secure and reliable, and I cannot
-          guarantee its absolute security.
-        </p>
-      </div>
-      <div>
-        <p>
-          <div class="text-lg font-bold leading-8">Links to Other Sites</div>
-        </p>
-        <p>
-          This Service may contain links to other sites. If you click on a
-          third-party link, you will be directed to that site. Note that these
-          external sites are not operated by me. Therefore, I strongly advise
-          you to review the Privacy Policy of these websites. I have no control
-          over and assume no responsibility for the content, privacy policies,
-          or practices of any third-party sites or services.
+          Nous apprécions la confiance que vous nous accordez en nous
+          fournissant vos informations personnelles et nous nous efforçons donc
+          d'utiliser des moyens commercialement acceptables pour les protéger.
+          Mais n'oubliez pas qu'aucune méthode de transmission sur Internet ou
+          de stockage électronique n'est sûre et fiable à 100 % et que je ne
+          peux pas garantir leur sécurité absolue.
         </p>
       </div>
       <div>
         <p>
-          <div class="text-lg font-bold leading-8">Children’s Privacy</div>
+          <div class="text-lg font-bold leading-8">
+            Liens vers d'autres sites
+          </div>
+        </p>
+        <p>
+          Ce service peut contenir des liens vers d'autres sites. Si vous
+          cliquez sur un lien tiers, vous serez dirigé vers ce site. Notez que
+          ces sites externes ne sont pas exploités par moi. Par conséquent, je
+          vous conseille vivement de consulter la politique de confidentialité
+          de ces sites. Je n'ai aucun contrôle et n'assume aucune responsabilité
+          quant au contenu, aux politiques de confidentialité ou aux pratiques
+          des sites ou services tiers.
+        </p>
+      </div>
+      <div>
+        <p>
+          <div class="text-lg font-bold leading-8">Vie privée des enfants</div>
         </p>
         <div>
           <p>
-            These Services do not address anyone under the age of 13. I do not
-            knowingly collect personally identifiable information from children
-            under 13 years of age. In the case I discover that a child under 13
-            has provided me with personal information, I immediately delete this
-            from our servers. If you are a parent or guardian and you are aware
-            that your child has provided us with personal information, please
-            contact me so that I will be able to do the necessary actions.
+            Ces services ne s'adressent pas aux personnes âgées de moins de 13
+            ans. Je ne collecte pas sciemment d'informations personnellement
+            identifiables auprès d'enfants âgés de moins de 13 ans. Dans le cas
+            où je découvre qu'un enfant de moins de 13 ans m'a fourni des
+            informations personnelles, je les supprime immédiatement de nos
+            serveurs. Si vous êtes un parent ou un tuteur et que vous savez que
+            votre enfant nous a fourni des informations personnelles, veuillez
+            me contacter afin que je puisse prendre les mesures nécessaires.
           </p>
         </div>
       </div>
       <div>
         <p>
           <div class="text-lg font-bold leading-8">
-            Changes to This Privacy Policy
+            Modifications de la présente politique de confidentialité
           </div>
         </p>
         <p>
-          I may update our Privacy Policy from time to time. Thus, you are
-          advised to review this page periodically for any changes. I will
-          notify you of any changes by posting the new Privacy Policy on this
-          page.
+          Je peux mettre à jour notre politique de confidentialité de temps à
+          autre. Nous vous conseillons donc de consulter régulièrement cette
+          page pour prendre connaissance des changements éventuels. Je vous
+          informerai de toute modification en publiant la nouvelle politique de
+          confidentialité sur cette page.
         </p>
-        <p>This policy is effective as of 2022-10-19</p>
+        <p>Cette politique est en vigueur à partir du 2022-10-19.</p>
       </div>
       <div>
         <p>
-          <div class="text-lg font-bold leading-8">Contact Us</div>
+          <div class="text-lg font-bold leading-8">Nous contacter</div>
         </p>
         <p>
-          If you have any questions or suggestions about my Privacy Policy, do
-          not hesitate to contact me at bpommier@gmail.com.
+          Si vous avez des questions ou des suggestions concernant ma politique
+          de confidentialité, n'hésitez pas à me contacter à l'adresse
+          bpommier+selector@gmail.com.
         </p>
         <p>
-          This privacy policy page was created at{' '}
+          Cette page de politique de confidentialité a été créée sur{' '}
           <a
             class="underline"
             href="https://privacypolicytemplate.net"
             target="_blank"
             rel="noopener noreferrer"
           >
-            privacypolicytemplate.net{' '}
-          </a>
-          and modified/generated by{' '}
+            privacypolicytemplate.net
+          </a>{' '}
+          et modifiée/générée par{' '}
           <a
             class="underline"
             href="https://app-privacy-policy-generator.nisrulz.com/"
@@ -202,3 +223,7 @@ export default component$(() => {
     </div>
   )
 })
+
+export const head: DocumentHead = {
+  title: 'Selector - A propos',
+}

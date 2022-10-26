@@ -74,3 +74,19 @@ npm run serve
 ```
 
 Then visit [http://localhost:8080/](http://localhost:8080/)
+
+## Docker
+
+```
+npm run build
+```
+
+Start docker
+
+```
+docker image build . -t selectorwebsite:latest
+docker image save selectorwebsite:latest -o docker_image.tar
+```
+
+Upload to portainer
+Duplicate/Edit container > Replace
