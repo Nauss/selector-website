@@ -28,7 +28,11 @@ export default component$(() => {
       </section>
 
       <ul class={`${state.menuOpen ? 'flex' : 'hidden'}  justify-end pt-3`}>
-        <li>
+        <li
+          onClick$={() => {
+            state.menuOpen = false
+          }}
+        >
           <Link
             href="/about"
             class="text-xl hover:text-slate-700 transition duration-300"
